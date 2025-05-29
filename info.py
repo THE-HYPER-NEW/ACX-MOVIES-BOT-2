@@ -69,11 +69,11 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/7wfmk3.mp4 https://files.catbox.moe/ffcudk.jpg https://files.catbox.moe/gx1d4z.jpg https://files.catbox.moe/ag6195.jpg')).split()
+START_IMG = (environ.get('START_IMG', 'https://files.catbox.moe/ldvsaa.jpg https://files.catbox.moe/sk6w7v.jpg https://files.catbox.moe/j6vuju.jpg https://files.catbox.moe/ja9c68.jpg')).split()
 FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
 PAYPICS = (environ.get('PAYPICS', 'https://files.catbox.moe/addn2n.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/ffcudk.jpg'))
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://files.catbox.moe/ja9c68.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
